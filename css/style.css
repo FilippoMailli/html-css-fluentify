@@ -75,7 +75,7 @@ header {
 }
 
 .destro a {
-    color: #6f98ac;
+    color: #8698ac;
     font-weight: bold;
     font-size: 12px;
     text-decoration: none;
@@ -104,8 +104,40 @@ header {
     cursor: pointer;
 }
 
+/* BARRA INTESTAZIONE FINE */
+
+/* INIZIO INTESTAZIONE PRINCIPALE */
+
 .banner {
-    height: 500px;
+    position: relative;
+    height: 400px;
+    background-color: #0d325a;
+}
+
+.banner img {
+    height: 370px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(30%, 0);
+}
+
+.banner-left {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    top: 35%;
+    color: white;
+    font-weight: bold;
+}
+
+.banner-left h1 {
+    font-size: 35px;
+}
+
+.banner-left button {
+    padding: 10px;
 }
 
 .grigio {
