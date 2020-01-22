@@ -140,13 +140,32 @@ header {
     padding: 10px;
 }
 
+/* FINE INTESTAZIONE */
+
+/* INIZIO CORPO PRINCIPALE */
+
 .grigio {
     background-color: #f9f9f9;
 }
 
-.riga-grigia {
+.primo {
     height: 100px;
-    background-color: lightgray;
+    background-color: #f9f9f9;
+}
+
+.scuole {
+    height: 100%;
+    width: 100%;
+    color: #8698ac;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
+}
+
+.scuole h3 {
+    color: black;
+    font-weight: lighter;
+    font-size: 16px
 }
 
 .bianco {
@@ -161,8 +180,40 @@ header {
 
 .cards {
     width: 33.33333333%;
+    position: relative;
     float: left;
     height: 200px;
-    background-color: purple;
-    border: 1px solid black;
+}
+
+.cards img {
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cards h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #7fb802;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+hr {
+    position: absolute;
+    width: 32px;
+    color: #8698ac;
+    margin: 0 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cards p {
+    color: #8698ac;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 40px;
 }
